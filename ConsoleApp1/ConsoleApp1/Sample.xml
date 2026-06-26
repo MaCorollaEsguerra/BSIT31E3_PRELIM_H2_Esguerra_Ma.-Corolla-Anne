@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<book id="1">
+		<title>Introduction to Programming</title>
+		<author>John Smith</author>
+	</book>
+	<book id="2">
+		<title>Data Structures</title>
+		<author>Jane Doe</author>
+	</book>
+</catalog>

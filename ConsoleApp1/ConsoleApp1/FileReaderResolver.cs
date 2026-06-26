@@ -21,11 +21,15 @@ namespace ConsoleApp1
         /// </summary>
         public FileReaderResolver()
         {
+
             _availableReaders = new List<IFileReader>
             {
-                new TextFileReader()
-                // TODO: Register CsvFileReader, JsonFileReader, XmlFileReader here
+                new TextFileReader(),
+                new CsvFileReader(),
+                new JsonFileReader(),
+                new XmlFileReader()
             };
+
         }
 
         /// <summary>
